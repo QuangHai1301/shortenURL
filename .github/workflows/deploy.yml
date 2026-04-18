@@ -19,7 +19,7 @@ jobs:
           username: tranquanghai7771
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /app
+            cd app
 
             git pull origin main
 
